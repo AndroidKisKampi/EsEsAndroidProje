@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
                 if(adet.getText().toString().isEmpty()&& fiyat.getText().toString().isEmpty()){
                     tutar.setText("Tutar: 0");
                 }
+                //Örnek pushlama
                 else {
                     int aFiyat=Integer.parseInt(fiyat.getText().toString());
                     int aAdet=Integer.parseInt(adet.getText().toString());
